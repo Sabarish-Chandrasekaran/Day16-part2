@@ -13,13 +13,13 @@ header{
   width:60%;
   margin:auto;
 }
-ul{
+.home ul{
   
   display: flex;
   padding: 2% 5% 2% 0;
   align-items: center;
 }
-li a{
+.home li a{
   text-decoration: none;
   color:rgb(230, 230, 230);
   padding:10px;
@@ -53,7 +53,7 @@ h1{
 /* ------------------About---------------- */
 main{
   width:60%;
-  height:90vh;
+  height:100vh;
   margin:auto;
 }
 article{
@@ -77,17 +77,120 @@ img{
 }
 .links{
   text-align: center;
-  margin-top: 50px
+  margin-top: 100px
 }
 .links a{
   text-decoration:none;
-  padding:15px 30px;
-  margin:10px;
+  padding:12px 25px;
+  margin:2px;
+  border-radius: 4px;
 }
 .fa{
-  color:rgb(238, 237, 237)
+  color:rgb(238, 237, 237);
+  padding-right:4px;
+}
+.fa.fa-wikipedia-w{
+  color:rgb(145, 145, 145);
 }
 .wiki{
   background-color:lightgray;
-  color:rgb(49, 49, 49)
+  color:rgb(94, 94, 94);
+  font-weight:bold;
+}
+.yt{
+  background-color:rgb(219, 0, 0);
+  color:rgb(255, 255, 255);
+  font-weight:bold;
+}
+.amazon{
+  background-color:rgb(255, 128, 0);
+  color:rgb(255, 255, 255);
+  font-weight:bold;
+}
+.quote{
+  width: 100%;
+  height: 140px;
+  background-color:black;
+}
+.quote h2{
+  color:white;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:55px;
+  font-size: 22px;
+}
+sup{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.row{
+  display: flex;
+  width: 63%;
+  margin:auto;
+}
+.column{
+  flex: 1;
+  border: 1px solid rgb(207, 207, 207);
+  padding:8px 10px;
+  margin:8px;
+  border-radius: 3px;
+}
+.date{
+  padding-bottom:7px ;
+  color: rgb(153, 153, 153);
+}
+.trophy{
+  font-weight:400
+}
+.row2{
+  width:60%;
+  display: flex;
+  margin:auto;
+  padding-bottom:100px;
+}
+.list1{
+  flex:1;
+  padding-right:20px;
+}
+.list2{
+  flex:1;
+}
+.list1 ul,.list2 ul {
+  font-size:12px;
+  padding-right:20px;
+  padding-left:30px;
+}
+.row3{
+  display: flex;
+  width:60%;
+  margin:auto;
+}
+.column3-1,.column3-2{
+  border-right: 1px solid rgb(73, 65, 65);
+}
+.column3-1 p,.column3-2 p,.column3-3 p{
+  font-size:13px;
+  padding-top:10px;
+}
+.column3-1{
+  flex:2;
+  padding-left: 10px;
+}
+.column3-2{
+  flex:1;
+  padding-left: 10px;
+}
+.column3-3{
+  flex:2;
+  padding-left: 10px;
+  /* padding-right: 50px; */
+}
+.footer{
+  background-color:black;
+  height:150px;
+  color: rgb(230, 230, 230);
+  padding-top:60px;
 }
