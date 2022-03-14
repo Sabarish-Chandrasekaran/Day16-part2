@@ -9,26 +9,30 @@
 header{
   background-color:black
 }
+
 .home{
   height:75vh;
   width:60%;
   margin:auto;
 }
-.home ul{
-  
+
+.home ul{ 
   display: flex;
   padding: 2% 5% 2% 0;
   align-items: center;
 }
+
 .home li a{
   text-decoration: none;
   color:rgb(230, 230, 230);
   padding:10px;
   transition: 0.5s;
 }
+
 li a:hover{
   border: 2px solid white;
 }
+
 h1{
   color:white;
   position: absolute;
@@ -39,6 +43,7 @@ h1{
   font-size:50px;
   font-weight: normal;
 }
+
 .home p{
   color:white;
   position: absolute;
@@ -49,39 +54,49 @@ h1{
   font-size:21px;
   font-weight: normal;
 }
+
+
 /* ------------------About---------------- */
 main{
   width:60%;
   height:100vh;
   margin:auto;
 }
+
 article{
   display: flex;
   justify-content: space-between; 
   margin-top: 100px;
 }
+
 .about h2{
   font-size:22px;
 }
+
 .about{
   flex-basis:60%;
   margin-right: 120px;
 }
+
 img{
   flex-basis: 40%;
   width:100%;
   height:420px;
   margin-top:50px;
-  /* margin-left: 20px; */
+  border-radius: 3px;
 }
+
+
 /* -------------------about links--------------- */
 .links{
   text-align: center;
   margin-top: 100px
 }
+
 .links a:hover{
   box-shadow: 0 0 7px rgba(26, 26, 26, 1)
 }
+
 .links a{
   text-decoration:none;
   padding:12px 25px;
@@ -89,13 +104,16 @@ img{
   border-radius: 4px;
   transition: 0.5s;
 }
+
 .fa{
   color:rgb(238, 237, 237);
   padding-right:4px;
 }
+
 .fa.fa-wikipedia-w{
   color:rgb(145, 145, 145);
 }
+
 .wiki{
   background-color:lightgray;
   color:rgb(94, 94, 94);
@@ -106,16 +124,19 @@ img{
   color:rgb(255, 255, 255);
   font-weight:bold;
 }
+
 .amazon{
   background-color:rgb(255, 128, 0);
   color:rgb(255, 255, 255);
   font-weight:bold;
 }
+
 .quote{
   width: 100%;
   height: 140px;
   background-color:black;
 }
+
 .quote h2{
   color:white;
   text-align: center;
@@ -125,17 +146,21 @@ img{
   padding:55px;
   font-size: 22px;
 }
+
+
 /* ---------------------achievements----------------- */
 sup{
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1.5px;
 }
+
 .row{
   display: flex;
   width: 63%;
   margin:auto;
 }
+
 .column{
   flex: 1;
   border: 1px solid rgb(207, 207, 207);
@@ -143,57 +168,70 @@ sup{
   margin:8px;
   border-radius: 3px;
 }
+
 .date{
   padding-bottom:7px ;
   color: rgb(153, 153, 153);
 }
+
 .trophy{
   font-weight:400
 }
+
 .row2{
   width:60%;
   display: flex;
   margin:auto;
   padding-bottom:100px;
 }
+
 .list1{
   flex:1;
   padding-right:20px;
 }
+
 .list2{
   flex:1;
 }
+
 .list1 ul,.list2 ul {
   font-size:12px;
   padding-right:20px;
   padding-left:30px;
 }
+
+
 /* -----------------------footer------------------- */
 .row3{
   display: flex;
   width:60%;
   margin:auto;
 }
+
 .column3-1,.column3-2{
   border-right: 1px solid rgb(73, 65, 65);
 }
+
 .column3-1 p,.column3-2 p,.column3-3 p{
   font-size:13px;
   padding-top:10px;
 }
+
 .column3-1{
   flex:2;
   padding-left: 10px;
 }
+
 .column3-2{
   flex:1;
   padding-left: 10px;
 }
+
 .column3-3{
   flex:2;
   padding-left: 10px;
-  /* padding-right: 50px; */
 }
+
 .footer{
   background-color:black;
   height:150px;
