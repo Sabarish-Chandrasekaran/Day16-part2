@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding:0;
+  /* width:60%; */
+  font-family: 'Lato', sans-serif;
+/* font-family: 'Poppins', sans-serif; */
+}
+header{
+  background-color:black
+}
+.home{
+  height:75vh;
+  width:60%;
+  margin:auto;
+}
+ul{
+  
+  display: flex;
+  padding: 2% 5% 2% 0;
+  align-items: center;
+}
+li a{
+  text-decoration: none;
+  color:rgb(230, 230, 230);
+  padding:10px;
+  /* position:relative; */
+  /* border: 1px solid white; */
+  /* transition: 1s; */
+}
+li a:hover{
+  border-bottom: 2px solid white;
+}
+h1{
+  color:white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size:50px;
+  font-weight: normal;
+}
+.home p{
+  color:white;
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size:21px;
+  font-weight: normal;
+}
+/* ------------------About---------------- */
+main{
+  width:60%;
+  height:90vh;
+  margin:auto;
+}
+article{
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 100px;
+}
+.about h2{
+  font-size:22px;
+}
+.about{
+  flex-basis:60%;
+  margin-right: 120px;
+}
+img{
+  flex-basis: 40%;
+  width:100%;
+  height:420px;
+  margin-top:50px;
+  /* margin-left: 20px; */
+}
+.links{
+  text-align: center;
+  margin-top: 50px
+}
+.links a{
+  text-decoration:none;
+  padding:15px 30px;
+  margin:10px;
+}
+.fa{
+  color:rgb(238, 237, 237)
+}
+.wiki{
+  background-color:lightgray;
+  color:rgb(49, 49, 49)
+}
