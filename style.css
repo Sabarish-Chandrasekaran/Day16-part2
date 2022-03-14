@@ -5,6 +5,7 @@
   font-family: 'Lato', sans-serif;
 /* font-family: 'Poppins', sans-serif; */
 }
+/* --------------------home---------------- */
 header{
   background-color:black
 }
@@ -23,12 +24,10 @@ header{
   text-decoration: none;
   color:rgb(230, 230, 230);
   padding:10px;
-  /* position:relative; */
-  /* border: 1px solid white; */
-  /* transition: 1s; */
+  transition: 0.5s;
 }
 li a:hover{
-  border-bottom: 2px solid white;
+  border: 2px solid white;
 }
 h1{
   color:white;
@@ -75,6 +74,7 @@ img{
   margin-top:50px;
   /* margin-left: 20px; */
 }
+/* -------------------about links--------------- */
 .links{
   text-align: center;
   margin-top: 100px
@@ -87,6 +87,7 @@ img{
   padding:12px 25px;
   margin:2px;
   border-radius: 4px;
+  transition: 0.5s;
 }
 .fa{
   color:rgb(238, 237, 237);
@@ -124,6 +125,7 @@ img{
   padding:55px;
   font-size: 22px;
 }
+/* ---------------------achievements----------------- */
 sup{
   font-size: 20px;
   font-weight: 600;
@@ -166,6 +168,7 @@ sup{
   padding-right:20px;
   padding-left:30px;
 }
+/* -----------------------footer------------------- */
 .row3{
   display: flex;
   width:60%;
