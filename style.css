@@ -58,7 +58,7 @@ h1{
 /* ------------------About---------------- */
 main{
   width:60%;
-  height:100vh;
+  min-height:100vh;
   margin:auto;
 }
 
@@ -89,7 +89,8 @@ img{
 /* -------------------about links--------------- */
 .links{
   text-align: center;
-  margin-top: 100px
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .links a:hover{
